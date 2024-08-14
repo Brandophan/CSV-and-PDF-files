@@ -1,0 +1,15 @@
+A file with the CSV file extension is a Comma Separated Values file. All CSV files are plain text, contain alphanumeric characters, and structure the data contained within them in a tabular form. Don't confuse Excel Files with csv files, while csv files are formatted very similarly to excel files, they don't have data types for their values, they are all strings with no font or color. They also don't have worksheets the way an excel file does. Python does have several libraries for working with Excel files, you can check them out here and here.
+
+Files in the CSV format are generally used to exchange data, usually when there's a large amount, between different applications. Database programs, analytical software, and other applications that store massive amounts of information (like contacts and customer data), will usually support the CSV format.
+
+other libraries to consider, 
+Pandas 
+Full data analysis library, can work with almost any tabular data type. 
+Runs visualizations and analysis
+Openpyxl 
+designed specifically for excel files 
+retains alot of excel specific functionality 
+support excel formulas 
+Google Sheets Python API 
+direct python interface for working with google spreadsheets 
+Allows you to directly make changes to the spreadsheets hosted online 
